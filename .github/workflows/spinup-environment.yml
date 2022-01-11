@@ -2,7 +2,7 @@ name: Configure Azure environment
 
 on: 
   pull_request:
-    types: spin up environment
+    types: [labeled]
 
 env:
   AZURE_RESOURCE_GROUP: cd-with-actions
